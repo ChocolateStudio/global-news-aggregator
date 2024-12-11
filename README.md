@@ -17,8 +17,6 @@ A comprehensive news aggregation platform that scrapes and analyzes internationa
 - OpenAI API Key
 
 # Setup Instructions
-Important Security Note:
-NEVER commit your actual .env file.
 
 Configuration and Setup Instructions:
 
@@ -32,6 +30,11 @@ Prerequisites:
 
 
 ## Environment Setup:
+
+Important Security Note:
+NEVER commit your actual .env file.
+
+
 Paste your API Keys in the .env file in the backend directory:
 - PARSEHUB_API_KEY=your_parsehub_api_key
 - OPENAI_API_KEY=your_openai_api_key
