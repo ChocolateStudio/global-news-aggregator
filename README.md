@@ -20,5 +20,65 @@ A comprehensive news aggregation platform that scrapes and analyzes internationa
 Important Security Note:
 NEVER commit your actual .env file.
 
+Configuration and Setup Instructions:
+
+Prerequisites:
+
+Python 3.9+
+Node.js 16+
+Docker (optional)
+ParseHub API Key
+OpenAI API Key
+
+
+Environment Setup:
+Create a .env file in the backend directory:
+CopyPARSEHUB_API_KEY=your_parsehub_api_key
+OPENAI_API_KEY=your_openai_api_key
+LOG_LEVEL=INFO
+
+Installation:
+bashCopy# Backend setup
+cd backend
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+# Frontend setup
+cd frontend
+npm install
+
+Running the Application:
+bashCopy# Start backend
+cd backend
+uvicorn app.main:app --reload
+
+# Start frontend
+cd frontend
+npm start
+
+
+Key Features:
+
+Multilingual news aggregation
+Advanced topic clustering
+AI-powered global perspective generation
+Responsive web interface
+Docker deployment support
+
+Potential Future Enhancements:
+
+User authentication
+Persistent database storage
+More advanced NLP techniques
+Sentiment analysis
+Real-time news tracking
+
+Notes:
+
+This is a comprehensive prototype
+You'll need to configure ParseHub projects for each news source
+Adjust API tokens and configurations as needed
+
 ## License
 MIT
