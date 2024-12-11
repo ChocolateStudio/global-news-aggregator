@@ -38,7 +38,7 @@ Prerequisites:
 - LOG_LEVEL=INFO
 
 ## Installation:
-# Backend setup
+### Backend setup
 - cd backend
 - python -m venv venv
 - source venv/bin/activate
@@ -49,11 +49,11 @@ Prerequisites:
 - npm install
 
 ### Running the Application:
-# Start backend
+#### Start backend
 - cd backend
 - uvicorn app.main:app --reload
 
-### Start frontend
+#### Start frontend
 - cd frontend
 - npm start
 
