@@ -32,10 +32,9 @@ Prerequisites:
 
 
 ## Environment Setup:
-- Create a .env file in the backend directory:
-- Copy PARSEHUB_API_KEY=your_parsehub_api_key
+Paste your API Keys in the .env file in the backend directory:
+- PARSEHUB_API_KEY=your_parsehub_api_key
 - OPENAI_API_KEY=your_openai_api_key
-- LOG_LEVEL=INFO
 
 ## Installation:
 ### Backend setup
