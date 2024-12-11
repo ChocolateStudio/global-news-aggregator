@@ -17,7 +17,8 @@ A comprehensive news aggregation platform that scrapes and analyzes internationa
 - OpenAI API Key
 
 ## Setup Instructions
-[Detailed setup instructions you prefer]
+Important Security Note:
+NEVER commit your actual .env file.
 
 ## License
-[Choose an appropriate license, e.g., MIT]
+MIT
