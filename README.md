@@ -33,12 +33,12 @@ Prerequisites:
 
 Environment Setup:
 - Create a .env file in the backend directory:
-- CopyPARSEHUB_API_KEY=your_parsehub_api_key
+- Copy PARSEHUB_API_KEY=your_parsehub_api_key
 - OPENAI_API_KEY=your_openai_api_key
 - LOG_LEVEL=INFO
 
 Installation:
-- bashCopy# Backend setup
+# Backend setup
 - cd backend
 - python -m venv venv
 - source venv/bin/activate
@@ -49,7 +49,7 @@ Installation:
 - npm install
 
 Running the Application:
-- bashCopy# Start backend
+# Start backend
 - cd backend
 - uvicorn app.main:app --reload
 
